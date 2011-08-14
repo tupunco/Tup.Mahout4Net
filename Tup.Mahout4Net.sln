@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tup.Mahout4Net", "Tup.Mahout4Net\Tup.Mahout4Net.csproj", "{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E93979EF-DA02-4915-8CA0-2C79623665E8}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Com\log4net.dll = Com\log4net.dll
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Tup.Mahout4Net.vsmdi = Tup.Mahout4Net.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tup.Mahout4Net.TestProject", "Tup.Mahout4Net.TestProject\Tup.Mahout4Net.TestProject.csproj", "{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Tup.Mahout4Net.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A0201B7D-09FD-4E2A-AC5B-79903AF1090F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

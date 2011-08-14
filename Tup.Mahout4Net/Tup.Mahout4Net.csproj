@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DE2FA02-7A14-4E2B-8709-5F96FC9CE25C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tup.Mahout4Net</RootNamespace>
+    <AssemblyName>Tup.Mahout4Net</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Com\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.log4net.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Src\Fpm.PfpGrowth\Convertors\SequenceFileOutputCollector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Src\Fpm.PfpGrowth\FPGrowth\FPTree.cs" />
+    <Compile Include="Src\Fpm.PfpGrowth\FPGrowth\FPTreeDepthCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Src\Fpm.PfpGrowth\FPGrowth\FrequentPatternMaxHeap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Src\Hadoop.Mapred\IOutputCollector.cs" />
+    <Compile Include="Src\Utils\Arrays.cs" />
+    <Compile Include="Src\Utils\Iterators.cs" />
+    <Compile Include="Src\Utils\PriorityQueue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Fpm.PfpGrowth\FPGrowth\LeastKCache.cs" />
+    <Compile Include="Src\Fpm.PfpGrowth\FPGrowth\Pattern.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Fpm.PfpGrowth\FPGrowth\FPGrowth.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Fpm.PfpGrowth\Convertors\IStatusUpdater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Fpm.PfpGrowth\Convertors\TopKPatternsOutputConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Fpm.PfpGrowth\Convertors\TransactionIterator.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Fpm.PfpGrowth\Convertors\String\StringOutputConverter.cs" />
+    <Compile Include="Src\Fpm.PfpGrowth\Convertors\String\TopKStringPatterns.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Fpm.PfpGrowth\Convertors\ContextStatusUpdater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Common\iterator\StringRecordIterator.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
