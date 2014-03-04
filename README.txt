@@ -1,5 +1,4 @@
-
-Apache Mahout project FPGrowth algorithm C # implementation.
+Apache Mahout project FPGrowth algorithm C# implementation.
 keywords:Mahout, Mahout4Net, C#, .NET, FPGrowth
 
 --------
