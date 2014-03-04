@@ -1,3 +1,8 @@
+
+Apache Mahout project FPGrowth algorithm C # implementation.
+keywords:Mahout, Mahout4Net, C#, .NET, FPGrowth
+
+--------
 Welcome to Apache Mahout!
 
 Mahout is a scalable machine learning library that implements many different approaches to machine learning.  The project
